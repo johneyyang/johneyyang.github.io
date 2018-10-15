@@ -11,16 +11,16 @@ navbar:
       href: research.html
     - text: "Teaching"
       href: teaching.html
-  right:
-    - icon: fa-envelope fa-lg
-      href: contact.html
-    - icon: fa-github fa-lg
-      href: http://github.com/johneyyang
+#  right:
+#    - icon: fa-envelope fa-lg
+#      href: contact.html
+#    - icon: fa-github fa-lg
+#      href: http://github.com/johneyyang
 #    - icon: fa-google-scholar fa-lg
 #      href: https://scholar.google.com/citations?user=8ELoI_UAAAAJ&hl=en
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/qiang-johnny-yang-38006914
+#    - icon: fa-linkedin fa-lg
+#      href: https://www.linkedin.com/in/qiang-johnny-yang-38006914
 output:
   html_document:
     theme: paper
-    css: 'styles.css'
+    #css: 'styles.css'

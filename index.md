@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+---
+---
 
-You can use the [editor on GitHub](https://github.com/johneyyang/qiangyang/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<link rel="stylesheet" href="styles.css" type="text/css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<img src="images/qiangyang_square.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
-### Markdown
+I like to analyze data to answer research questions and test hypotheses. Currently I investigate questions related to air pollution through my work as a Associate Research Scientist at [Lamont-Doherty Earth Observatory](https://www.ldeo.columbia.edu/) of [Columbia University](https://www.columbia.edu/). 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johneyyang/qiangyang/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+My full CV is available [here](files/QYang_CV_201810.pdf).

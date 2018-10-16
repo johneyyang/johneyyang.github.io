@@ -1,0 +1,1 @@
+<p>&copy; 2018-10 | by <a href="http://www.columbia.edu/~qy2115">Qiang Yang</a> <img src="http://www.easycounter.com/counter.php?johneyyang" border="0" alt="stats counter"></p>

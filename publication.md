@@ -1,35 +1,53 @@
 ---
+output: html_document
 ---
 
 # <link rel="stylesheet" href="styles.css" type="text/css">
 
 <h4>Air and Water pollution</h4>
 
-Beiyi Xu, Guangcai Wang, Qiang Yang, Yan Zheng. Hydrological buffering during groundwater acidification in rapidly industrializing alluvial plains. Journal of Contaminant Hydrology, 2018, https://doi.org/10.1016/j.jconhyd.2018.08.006;  
+Zhen Tan, Qiang Yang, Yan Zheng*. Machine Learning Models of Groundwater Arsenic Spatial Distribution in Bangladesh: Influence of Holocene Sediment Depositional History. Environmental Science & Technology, 2020, https://doi.org/10.1021/acs.est.0c03617;
 
-Kewei Chen, Hongbin Zhan, Qiang Yang. Fractal Models Simulating Non-Fickian Behavior in Four-Stage Single-Well Push-Pull Tests. Water Resource Research, 2017, 53, https://doi.org/10.1002/2017WR021411;  
+Zhenjie Zhao, Shehong Li*, Lili Xue, Jie Liao, Jingjing Zhao, Mei Wu, Mingguo Wang, Jing Sun, Yan Zheng, Qiang Yang^. Effects of dam construction on arsenic mobility and transport in two large rivers in Tibet, China. Science of the Total Environment, 2020, 741. https://doi.org/10.1016/j.scitotenv.2020.140406;
 
-Haiyun Wu, Qilin Liao, Steven N. Chillrud, Qiang Yang, Lei Huang, Jun Bi, and Beizhan Yan. Environmental Exposure to Cadmium: Health Risk Assessment and its Associations with Hypertension and Impaired Kidney Function. Scientific Reports, 2016, 6: 29989, https://doi.org/10.1038/srep29989;  
+Qiang Yang*, Beizhan Yan, Xin He, Fangliang Chen, Ayman Ali, Yusuf Mehta, Huiming Yin. Environmental impact of reclaimed asphalt pavement on leaching of metals into groundwater. Transportation Research Part D: Transport and Environment, 2020, 85. https://doi.org/10.1016/j.trd.2020.102415;
 
-Natalia V. Zakharova, David S. Goldberg, Paul E. Olsen, Dennis V. Kent, S. Morgan, Qiang Yang, Martin Stute, Juerg M. Matter. New insights into lithology and hydrogeology of the northern Newark Rift Basin. Geochemistry, Geophysics, Geosystems, 2016, 17(6):2070-2094, https://doi.org/10.1002/2015GC006240; 
+Qiang Yang, Sara Flanagan, Steven Chillrud, James Ross, Wenke Zeng, Charles Culbertson, Steve Spayd, Yan Zheng*. Reduction in drinking water arsenic exposure and health risk through arsenic treatment among private well households in Maine and New Jersey, USA. Science of the Total Environment, 2020, 738. https://doi.org/10.1016/j.scitotenv.2020.139683;
 
-Qiang Yang, Juerg Matter, Taro Takahashi, Martin Stute, Gregory O’Mullan, Kale Clauson, Kelsey Umemoto, David Goldberg. Groundwater geochemistry in bench experiments simulating CO2 leakage from geological storage in the Newark Basin. International Journal of Greenhouse Gas Control, 2015, 42: 98-108, https://doi.org/10.1016/j.ijggc.2015.06.024; 
+Felicia Rabito*, Qiang Yang, Hao Zhang, Derek Werthmann, Arti Shankar, Steven Chillrud. The association between short-term residential black carbon concentration on blood pressure in a general population sample. Indoor Air, 2020, 30(4): 767-775. https://doi.org/10.1111/ina.12651;
 
-Gregory O’Mullan, M. Elias Dueker, Kale Clauson, Qiang Yang, Kelsey Umemoto, Natalia Zakharova, Juerg Matter, Martin Stute, Taro Takahashi, David Goldberg. Microbial stimulation and succession following a test well injection simulating CO2 leakage into a shallow Newark Basin aquifer. PLOS ONE, 2015, https://doi.org/10.1371/journal.pone.0117812; 
+Robert Chew*, Jonathan Thornburg, Darby Jack, Cara Smith, Qiang Yang, and Steven Chillrud. Identification of Bicycling Periods Using the MicroPEM Personal Exposure Monitor. Sensors, 2019, 19(21), 4613, https://doi.org/10.3390/s19214613;
 
-Qiang Yang, Charles Culbertson, Martha Nielson, Charles Schalk, Carole Johnson, Robert Marvinney, Martin Stute, Yan Zheng. Flow and sorption control of groundwater arsenic in individual boreholes from bedrock aquifers in central Maine, USA. Science of the Total Environment, 2015, 505: 1291-1307, https://doi.org/10.1016/j.scitotenv.2014.04.089;
+Ting Zhang, Steven Chillrud, Qiang Yang, Masha Pitiranggon, James Ross, Frederica Perera, Junfeng Ji, Avrum Spira, Patrick Breysse, Charles Rodes, Rachel Miller, Beizhan Yan*. Characterizing peak exposure of secondhand smoke using a realtime PM2.5 monitor. Indoor Air, 2020, 30(1): 98-107. https://doi.org/10.1111/ina.12611;
 
-Sara V. Flanagan, Robert G. Marvinney, Robert A. Johnston, Qiang Yang, Yan Zheng. Dissemination of well water arsenic results to homeowners in Central Maine: Influences on mitigation behavior and continued risks for exposure. Science of the Total Environment, 2015, 505: 1282-1290, https://doi.org/10.1016/j.scitotenv.2014.03.079; 
+Cara Smith*, Steven Chillrud, Darby Jack, Patrick Kinney, Qiang Yang, Aimee Layton. Laboratory Validation of Hexoskin Biometric Shirt at Rest, Submaximal Exercise, and Maximal Exercise While Riding a Stationary Bicycle. Journal of Occupational and Environmental Medicine, 2019, 61(4): 104-111. https://doi.org/10.1097/JOM.0000000000001537; 
 
-Qiang Yang, Juerg Matter, Martin Stute, Kelsey Umemoto, Kale Clauson, M. Elias Dueker, Gregory O’Mullan, Taro Takahashi, Natalia Zakharova, David Goldberg. Groundwater hydrogeochemistry in field injection experiments simulating CO2 leakage from geosequestration in a shallow aquifer in Newark Basin. International Journal of Greenhouse Gas Control, 2014, 26: 193-203, https://doi.org/10.1016/j.ijggc.2014.04.025 (for free pdf download: https://doi.org/10.7916/D8T16M3W); 
 
-Qiang Yang, Paul E. Smitherman, Charles T. Hess, Charles W. Culbertson, Robert G. Marvinney, Andrew E. Smith, Yan Zheng. Uranium and Radon in Private Bedrock Well Water in Maine: Geospatial Analysis at Two Scales. Environmental Science & Technology, 2014, 48(8): 4298-4306, https://doi.org/10.1021/es405020k; 
+Beiyi Xu, Guangcai Wang, Qiang Yang, Yan Zheng*. Hydrological buffering during groundwater acidification in rapidly industrializing alluvial plains. Journal of Contaminant Hydrology, 2018, <a href="https://doi.org/10.1016/j.jconhyd.2018.08.006" target="_blank">https://doi.org/10.1016/j.jconhyd.2018.08.006</a>;
 
-Shehong Li, Mingguo Wang, Qiang Yang, Hui Wang, Jianming Zhu, Baoshan Zheng, Yan Zheng. Enrichment of Arsenic in Surface Water, Stream Sediments, Soils and Rocks in Tibet. Journal of Geochemical Exploration, 2013, 135:104-116, https://doi.org/10.1016/j.gexplo.2012.08.020; 
+Kewei Chen, Hongbin Zhan*, Qiang Yang. Fractal Models Simulating Non-Fickian Behavior in Four-Stage Single-Well Push-Pull Tests. Water Resource Research, 2017, 53, [https://doi.org/10.1002/2017WR021411](https://doi.org/10.1002/2017WR021411){target="_blank"};  
 
-Qiang Yang, Hun Bok Jung, Charles W. Culbertson, Robert G. Marvinney, Yan Zheng. Can arsenic occurrence rates in bedrock aquifers be predicted? Environmental Science & Technology, 2012, 46(4): 2080-2087, https://doi.org/10.1021/es203793x; 
+Haiyun Wu, Qilin Liao, Steven N. Chillrud, Qiang Yang, Lei Huang*, Jun Bi^, and Beizhan Yan. Environmental Exposure to Cadmium: Health Risk Assessment and its Associations with Hypertension and Impaired Kidney Function. Scientific Reports, 2016, 6: 29989, [https://doi.org/10.1038/srep29989](https://doi.org/10.1038/srep29989){target="_blank"};  
 
-Qiang Yang, Hun Bok Jung, Charles W. Culbertson, Robert G. Marvinney, Marc C. Loiselle, Daniel B. Locke, Heidi Cheek, Hilary Thibodeau, Yan Zheng. Spatial pattern of groundwater arsenic occurrence and association with bedrock geology in greater Augusta, Maine, USA. Environmental Science & Technology, 2009, 43(8): 2714-2719, https://doi.org/10.1021/es803141m;
+Natalia V. Zakharova, David S. Goldberg, Paul E. Olsen, Dennis V. Kent, S. Morgan, Qiang Yang, Martin Stute, Juerg M. Matter. New insights into lithology and hydrogeology of the northern Newark Rift Basin. Geochemistry, Geophysics, Geosystems, 2016, 17(6):2070-2094, [https://doi.org/10.1002/2015GC006240](https://doi.org/10.1002/2015GC006240){target="_blank"}; 
+
+Qiang Yang, Juerg Matter, Taro Takahashi, Martin Stute, Gregory O’Mullan, Kale Clauson, Kelsey Umemoto, David Goldberg. Groundwater geochemistry in bench experiments simulating CO2 leakage from geological storage in the Newark Basin. International Journal of Greenhouse Gas Control, 2015, 42: 98-108, [https://doi.org/10.1016/j.ijggc.2015.06.024](https://doi.org/10.1016/j.ijggc.2015.06.024){target="_blank"}; 
+
+Gregory O’Mullan, M. Elias Dueker, Kale Clauson, Qiang Yang, Kelsey Umemoto, Natalia Zakharova, Juerg Matter, Martin Stute, Taro Takahashi, David Goldberg. Microbial stimulation and succession following a test well injection simulating CO2 leakage into a shallow Newark Basin aquifer. PLOS ONE, 2015, [https://doi.org/10.1371/journal.pone.0117812](https://doi.org/10.1371/journal.pone.0117812){target="_blank"}; 
+
+Qiang Yang, Charles Culbertson, Martha Nielson, Charles Schalk, Carole Johnson, Robert Marvinney, Martin Stute, Yan Zheng. Flow and sorption control of groundwater arsenic in individual boreholes from bedrock aquifers in central Maine, USA. Science of the Total Environment, 2015, 505: 1291-1307, [https://doi.org/10.1016/j.scitotenv.2014.04.089](https://doi.org/10.1016/j.scitotenv.2014.04.089){target="_blank"};
+
+Sara V. Flanagan, Robert G. Marvinney, Robert A. Johnston, Qiang Yang, Yan Zheng. Dissemination of well water arsenic results to homeowners in Central Maine: Influences on mitigation behavior and continued risks for exposure. Science of the Total Environment, 2015, 505: 1282-1290, [https://doi.org/10.1016/j.scitotenv.2014.03.079](https://doi.org/10.1016/j.scitotenv.2014.03.079){target="_blank"}; 
+
+Qiang Yang, Juerg Matter, Martin Stute, Kelsey Umemoto, Kale Clauson, M. Elias Dueker, Gregory O’Mullan, Taro Takahashi, Natalia Zakharova, David Goldberg. Groundwater hydrogeochemistry in field injection experiments simulating CO2 leakage from geosequestration in a shallow aquifer in Newark Basin. International Journal of Greenhouse Gas Control, 2014, 26: 193-203, [https://doi.org/10.1016/j.ijggc.2014.04.025](https://doi.org/10.1016/j.ijggc.2014.04.025){target="_blank"}; 
+
+Qiang Yang, Paul E. Smitherman, Charles T. Hess, Charles W. Culbertson, Robert G. Marvinney, Andrew E. Smith, Yan Zheng. Uranium and Radon in Private Bedrock Well Water in Maine: Geospatial Analysis at Two Scales. Environmental Science & Technology, 2014, 48(8): 4298-4306, [https://doi.org/10.1021/es405020k](https://doi.org/10.1021/es405020k){target="_blank"}; 
+
+Shehong Li, Mingguo Wang, Qiang Yang, Hui Wang, Jianming Zhu, Baoshan Zheng, Yan Zheng. Enrichment of Arsenic in Surface Water, Stream Sediments, Soils and Rocks in Tibet. Journal of Geochemical Exploration, 2013, 135:104-116, [https://doi.org/10.1016/j.gexplo.2012.08.020](https://doi.org/10.1016/j.gexplo.2012.08.020){target="_blank"}; 
+
+Qiang Yang, Hun Bok Jung, Charles W. Culbertson, Robert G. Marvinney, Yan Zheng. Can arsenic occurrence rates in bedrock aquifers be predicted? Environmental Science & Technology, 2012, 46(4): 2080-2087, [https://doi.org/10.1021/es203793x](https://doi.org/10.1021/es203793x){target="_blank"}; 
+
+Qiang Yang, Hun Bok Jung, Charles W. Culbertson, Robert G. Marvinney, Marc C. Loiselle, Daniel B. Locke, Heidi Cheek, Hilary Thibodeau, Yan Zheng. Spatial pattern of groundwater arsenic occurrence and association with bedrock geology in greater Augusta, Maine, USA. Environmental Science & Technology, 2009, 43(8): 2714-2719, [https://doi.org/10.1021/es803141m](https://doi.org/10.1021/es803141m){target="_blank"};
 
 
 <h4>Petroleum and Natural Gas Geology 石油和天然气地质</h4>

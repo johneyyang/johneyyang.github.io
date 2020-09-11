@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title></title>
+<title>research.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -70,9 +70,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,13 +84,18 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
 }
+.html-widget {
+  margin-bottom: 20px;
+}
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -108,7 +111,6 @@ body {
   padding-top: 69px;
   margin-top: -69px;
 }
-
 .section h2 {
   padding-top: 69px;
   margin-top: -69px;
@@ -128,6 +130,43 @@ body {
 .section h6 {
   padding-top: 69px;
   margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -149,19 +188,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -174,7 +268,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Qiang (Johnny) Yang <U+6768><U+5F3A></a>
+      <a class="navbar-brand" href="index.html">Qiang (Johnny) Yang 杨强</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -189,6 +283,9 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="teaching.html">Teaching</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -208,21 +305,46 @@ $(document).ready(function () {
 
 <div id="section" class="section level1">
 <h1><link rel="stylesheet" href="styles.css" type="text/css"></h1>
+<br>
 <h4>
-<b>Environmental Expsoure</b> to natural contamination and anthropogenic sources:
+<u>Environmental Expsoure</b> to natural contamination and anthropogenic sources:</u>
 </h4>
-<div id="groundwater-contamination-of-arsenic-as-manganese-mn-uranium-u-radon-rn-lead-pb-fluoride-f-cadmium-cd" class="section level5">
-<h5>(1) groundwater contamination of arsenic (As), manganese (Mn), uranium (U), radon (Rn), lead (Pb), fluoride (F), cadmium (Cd);</h5>
-</div>
-<div id="biohydrogeochemical-processes-and-environmental-impact-of-carbon-geosequestration-ccs" class="section level5">
-<h5>(2) biohydrogeochemical processes and environmental impact of carbon geosequestration (CCS);</h5>
-</div>
-<div id="environmental-impacts-of-recycled-asphalt-pavement-rap" class="section level5">
-<h5>(3) environmental impacts of recycled asphalt pavement (RAP);</h5>
-</div>
-<div id="urban-air-pollution-of-black-carbon-bc-fine-particulates-pm2.5-ultrafine-particle-ufp-and-public-exposure." class="section level5">
-<h5>(4) urban air pollution of black carbon (BC), fine particulates (PM2.5), ultrafine particle (UFP), and public exposure.</h5>
-</div>
+<p><br></p>
+<h5>
+<b>urban air pollution of black carbon (BC), fine particulates (PM2.5), ultrafine particle (UFP), and public exposure</b>
+</h5>
+<p>
+<a href="http://www.columbia.edu/cu/bike/" target="_blank">http://www.columbia.edu/cu/bike/</a>
+</p>
+&lt;img src=“files/bike/mv_n_trip_2s.png”; style=“width:25%; border:1px solid; float: left”&gt; &lt;img src=“files/bike/mv_median_2s.png”; style=“width:25%; border:1px solid; float: left”&gt; &lt;img src=“files/bike/BC_median_2s.png”; style=“width:25%; border:1px solid; float: left”&gt; &lt;img src=“files/bike/PM_median_2s.png”; style=“width:25%; border:1px solid; float: left”&gt;
+<p style="clear:left">
+</p>
+<p><br></p>
+<h5>
+<b>groundwater contamination of arsenic (As), manganese (Mn), uranium (U), radon (Rn), lead (Pb), fluoride (F), cadmium (Cd)</b>
+</h5>
+&lt;img src=“files/arsenic/toc-art22.jpg”; style=“width:30%; border:1px solid; float: left”&gt; &lt;img src=“files/arsenic/spainposter-2.jpg”; style=“width:30%; border:1px solid; float: left”&gt; &lt;img src=“files/arsenic/spainposter-3.jpg”; style=“width:30%; border:1px solid; float: left”&gt;
+<p style="clear:left">
+</p>
+<p><br></p>
+<h5>
+<b>biohydrogeochemical processes and environmental impact of carbon geosequestration (CCS)</b>
+</h5>
+<img src="files/CCS/TW3.jpg" 
+     style="width:50%; float: left"> <img src="files/CCS/PIs%20on%20step.jpg" 
+     style="width:50%; float: left">
+<p style="clear:left">
+</p>
+<p><br></p>
+<h5>
+<b>environmental impacts of recycled asphalt pavement (RAP)</b>
+</h5>
+<img src="files/RAP/Column%20experiment%20setup.png" 
+     style="width:50%; float: left"> <img src="files/RAP/RAP%20Inhalation%20Diagram.png" 
+     style="width:50%; float: left">
+<p style="clear:left">
+</p>
+<p><br></p>
 </div>
 
 
@@ -242,6 +364,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
